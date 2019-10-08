@@ -17,12 +17,11 @@
   pointer-events: auto;
 }
 .modal-window > div {
-  width: 400px;
+  max-width: 720px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 10%;
+  left: 10%;
+  
   padding: 2em;
   background: #ffffff;
 }
