@@ -16,7 +16,7 @@ iframe,div{float:left}
 
 <body>
 LiveMark  <input type="text" name=""/>  <span id="timebar"></span>
-<script>setInterval(()=>document.getElementById("timebar").innerHTML=new Date().toISOString()/*.slice(10,19)*/,1000) </script><br>
+<script>setInterval(()=>document.getElementById("timebar").innerHTML=new Date().toISOString()/*.slice(10,19)*/,10000) </script><br>
 <iframe id="frame1" src="" width="600" height="500"></iframe>
 <div id="toolbar1"><a>&nbsp;</a><a>----</a><button>> </button><button></button><input type="text" name="tag1"></div>
 <textarea name="editor1" id="editor1" rows="25" cols="50" onblur="_('frame1').src ='data:text/html;charset=utf-8,'+marked(this.value)">
