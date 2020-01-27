@@ -9,12 +9,12 @@
 			content="Zenpen - A minimal text editor, made to stay out of the way while you get the words down."
 		/>
 
-		<!-- CSS -->
+		<!-- CSS 
 		<link
 			href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
 			rel="stylesheet"
 			type="text/css"
-		/>
+		/>-->
 		<link href="css/style.css" rel="stylesheet" />
 		<link href="css/fonts.css" rel="stylesheet" />
 	</head>
@@ -29,7 +29,7 @@
 			</div>
 
 			<div class="saveoverlay modal">
-				<h1>Select save format</h1>
+				<h1>====</h1>
 				<p class="saveselection">
 					<span data-format="markdown">Markdown</span>
 					<span data-format="html">HTML</span>
@@ -37,7 +37,7 @@
 				</p>
 				<button class="savebutton useicons">&#xe006;</button>
 				<div>
-					Or select format and press ctrl+c (cmd+c on mac) to copy the text.
+					Or select format and press Ctrl+C (cmd+C on mac) to copy the source.
 				</div>
 				<textarea class="hiddentextbox"></textarea>
 			</div>
@@ -116,19 +116,6 @@
 			ZenPen.editor.init();
 			ZenPen.ui.init();
 		</script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=UA-38039699-1"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
-
-			gtag("config", "UA-38039699-1");
-		</script>
+		
 	</body>
 </html>
